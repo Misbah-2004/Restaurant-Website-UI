@@ -1,0 +1,110 @@
+/* Contact Banner */
+#contactBanner
+{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 1200px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+#contactBanner img
+{
+    width: 1200px;
+    height: 200px;
+}
+
+#contactBanner h2
+{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: white;
+    font-size: 36px;
+}
+
+/* Contact Section */
+#contactSection
+{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 1200px;
+    height: 450px;
+    margin: 0px auto;
+}
+
+.container
+{
+    display: flex;
+}
+
+/* Contact Form */
+#contactForm
+{
+    flex: 48%;
+    margin: 10px;
+}
+
+#contactForm h1
+{
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#contactForm label
+{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#contactForm input,
+#contactForm textarea
+{
+    width: 90%;
+    height: 35px;
+    border: 1px solid #9acd32;
+    margin-top: 5px;
+}
+
+#contactForm textarea
+{
+    height: 90px;
+}
+
+#contactForm button
+{
+    width: 140px;
+    height: 40px;
+    margin-top: 15px;
+    border: 1px solid #9acd32;
+    background: transparent;
+    color: #444;
+}
+
+#contactForm button:hover
+{
+    background: #9acd32;
+    color: white;
+}
+
+/* Contact Info */
+#contactInfo
+{
+    flex: 48%;
+    margin: 10px;
+}
+
+#contactInfo h1
+{
+    color: #444;
+    margin-bottom: 20px;
+}
+
+#contactInfo p
+{
+    color: #666;
+    line-height: 22px;
+}

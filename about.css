@@ -1,0 +1,137 @@
+/* ABOUT BANNER */
+#aboutBanner
+{
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    margin: 0px auto;
+}
+
+#aboutBanner img
+{
+    width: 1200px;
+    height: 200px;
+}
+
+#aboutBanner h2
+{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: white;
+    font-size: 36px;
+}
+
+/* STORY */
+#story
+{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.container
+{
+    display: flex;
+}
+
+#storyImage img
+{
+    width: 500px;
+    height: 400px;
+}
+
+#storyContent
+{
+    margin-left: 40px;
+}
+
+#storyContent button
+{
+    border: 1px solid #9acd32;
+    background: transparent;
+    padding: 8px 15px;
+}
+#storyContent button:hover
+{
+    border: 1px solid #11cea2;
+    background: #0db8c4;
+    padding: 8px 15px;
+}
+
+/* FEATURES */
+#features
+{
+    width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.featureBox
+{
+    flex: 22%;
+    margin: 10px;
+}
+
+.featureBox span
+{
+    font-size: 40px;
+    color: #9acd32;
+}
+
+/* EXPERIENCE */
+#experience
+{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+#expText
+{
+    flex: 50%;
+    background: #c62828;
+    color: white;
+    padding: 40px;
+}
+
+#expImage img
+{
+    width: 600px;
+}
+
+/* CHEFS */
+#chefs
+{
+    width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.chefBox
+{
+    flex: 22%;
+    border: 1px solid #9acd32;
+    margin: 10px;
+    padding: 10px;
+}
+
+.chefBox img
+{
+    width: 200px;
+    height: 220px;
+}
+
+/* REVIEWS */
+#reviews
+{
+    width: 1200px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.reviewBox
+{
+    flex: 48%;
+    border: 1px solid #9acd32;
+    margin: 10px;
+    padding: 20px;
+}

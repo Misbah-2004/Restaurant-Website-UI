@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rum+Raisin&display=swap');
+
+/* 
+Roboto,
+Quicksand
+Lato,
+Rum Raisin
+*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section Styles */
+header
+{
+    position: relative;
+    top: 5px;
+    left: 0px;
+    width: 1200px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+#logo
+{
+    position: absolute;
+    top: 5px;
+    left: 40px;
+}
+
+#menu
+{
+    position: absolute;
+    top: 5px;
+    right: 40px;
+}
+
+#menu ul
+{
+    list-style-type: none;
+}
+
+#menu ul li
+{
+    float:left;
+    width: 120px;
+    height: 80px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#menu ul li a
+{
+    color: maroon;
+    font-size: 18px;
+    font-family: 'Lato';
+    text-decoration: none;
+    display: block;
+}
+
+#menu ul li a:hover
+{
+    color: white;
+    background-color: maroon;
+}
+
+footer
+{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 1200px;
+    height: 270px;
+    background: #323232;
+    margin: 0px auto;
+}
+
+#col1
+{
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: white;
+    text-align: center;
+}
+
+#col1 p
+{
+    margin: 25px 0px;
+    text-align: justify;
+}
+
+#col2
+{
+    position: absolute;
+    top: 15px;
+    left: 350px;
+    color: white;
+}
+
+#col3
+{
+    position: absolute;
+    top: 15px;
+    left: 700px;
+    color: white;
+}
+
+#col4
+{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: white;
+}
+
+#social
+{
+    position: absolute;
+    top: 180px;
+    left: 500px;    
+}
+
+.whiteIcon
+{
+    color: white;
+    font-size: 27px;
+}
+
+#designBy
+{
+    position: absolute;
+    top: 230px;
+    left: 470px;
+    color: rgb(188, 188, 188);
+}
+

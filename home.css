@@ -1,0 +1,215 @@
+/* Banner1 Section Styles */
+#banner1
+{
+    position: relative;
+    top: 15px;
+    left: 0px;
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+#welcome
+{
+    position: relative;
+    top: 40px;
+    left: 0px;
+    width: 1200px;
+    height: 200px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#welcome h1
+{
+    color: maroon;
+    margin-top: 40px;
+}
+
+#welcome p
+{
+    width: 90%;
+    margin: 10px 40px;
+}
+
+#Items1
+{
+    position: relative;
+    top: 50px;
+    left: 0px;
+    width: 1200px;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.column
+{
+    flex: 22%;
+    border: 2px solid green;
+    text-align: center;
+    margin: 10px;
+}
+
+.column img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.column h3
+{
+    color: maroon;
+    font-size: 24px;
+    margin: 10px 0px;
+    font-family: 'Rum Raisin';
+}
+
+.column p
+{
+    color: #444444;
+    margin: 5px;
+}
+
+#popular
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+#popular h1
+{
+    color: maroon;
+    text-align: center;
+    font-family: 'Lato';
+    margin: 20px 0px;
+}
+
+/* Banner2 Section Styles */
+#banner2
+{
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+#Items2
+{
+    position: relative;
+    top: 60px;
+    left: 0px;
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+.myIcons
+{
+    color: green;
+    font-size: 80px;
+}
+
+
+.column1
+{
+    flex: 22%;
+    text-align: center;
+    margin: 10px;
+}
+
+.column1 img
+{
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.column1 h3
+{
+    color: maroon;
+    font-size: 24px;
+    margin: 10px 0px;
+    font-family: 'Rum Raisin';
+}
+
+.column1 p
+{
+    color: #444444;
+    margin: 5px;
+}
+
+.column1 button
+{
+    width: 120px;
+    height: 40px;
+    border: 2px solid green;
+    background: transparent;
+    border-radius: 5px;
+}
+
+.column1 button:hover
+{
+    background: green;
+    color: white;
+}
+
+/* FoodEvents Section Styles */
+#FoodEvents
+{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 1200px;
+    height: 400px;
+    margin: 0px auto;
+}
+
+#FoodEvents h1
+{
+    color: maroon;
+    text-align: center;
+    font-family: 'Lato';
+    margin-bottom: 40px;
+}
+
+.column3
+{
+    flex: 48%;
+    margin: 10px;
+    text-align: center;
+}
+
+.column3 img
+{
+    width: 150px;
+    height: 150px;  
+}
+
+.column3 p,h4
+{
+    text-align: left;
+}
+
+/* Banner3 Section Styles */
+#banner3
+{
+    position: relative;
+    top: 10px;
+    left: 0px;
+    width: 1200px;
+    height: 200px;
+    margin: 0px auto;
+}
